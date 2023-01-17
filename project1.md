@@ -21,14 +21,17 @@
 
 ![Apache status](./images/status.png)
 
+**Install OpenSSH**
+
 - [Install OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=powershell#install-openssh-for-windows)
 
+**OpenSSH Key Management**
 - [OpenSSH Key Management](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
-
+**Adding port 80 to the inbound rule of an EC2 instance**
 - [Adding port 80 to the inbound rule of an EC2 instance](https://aws.amazon.com/premiumsupport/knowledge-center/connect-http-https-ec2/)
 
-
+**Test Ngnix server**
 ![Test Ngnix server](./images/Webserver%20on%20ubuntu.jpg)
 
 
@@ -77,6 +80,9 @@
 
 ![Install 3 packages - php, php-mysql and libapache2-mod-php](./images/installing_php_libapache2-mod-php_php-mysql.jpg)
 
+
+**Confirm PHP version**
+
 `php -v`
 
 ![Confirm PHP version](./images/php%20version%207.4.3.jpg)
@@ -97,6 +103,8 @@
 `sudo systemctl reload apache2`
 ![Virtual Host for Apache](./images/web_content_config.jpg)
 
+**Open the website URL on the browser**
+
 ![Attempt to open the website URL](./images/Test%20successful.jpg)
 
 
@@ -114,7 +122,7 @@
 
 ![Edit the /etc/apache2/mods-enabled/dir.conf file and change the order in which the index.php file is listed within the DirectoryIndex](./images/php.jpg)
 
-
+**Test PHP installation on the browser**
 ![Test PHP installation on the browser](./images/php%20working.jpg)
 
 
